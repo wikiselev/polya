@@ -1,0 +1,790 @@
+
+
+processing file: report-atlas.Rmd
+output file: report-atlas.R
+
+
+
+processing file: report-atlas.Rmd
+Loading required package: methods
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following object(s) are masked from 'package:stats':
+
+    xtabs
+
+The following object(s) are masked from 'package:base':
+
+    anyDuplicated, cbind, colnames, duplicated, eval, Filter,
+    Find, get, intersect, lapply, Map, mapply, mget, order, paste,
+    pmax, pmax.int, pmin, pmin.int, Position, rbind, Reduce,
+    rep.int, rownames, sapply, setdiff, table, tapply, union,
+    unique
+
+Loading required package: IRanges
+Loading required package: plyr
+
+Attaching package: 'plyr'
+
+The following object(s) are masked from 'package:IRanges':
+
+    compact, desc, rename
+
+
+Attaching package: 'reshape'
+
+The following object(s) are masked from 'package:plyr':
+
+    rename, round_any
+
+The following object(s) are masked from 'package:IRanges':
+
+    expand, rename
+
+
+Attaching package: 'reshape2'
+
+The following object(s) are masked from 'package:reshape':
+
+    colsplit, melt, recast
+
+Loading required package: RColorBrewer
+
+Attaching package: 'latticeExtra'
+
+The following object(s) are masked from 'package:ggplot2':
+
+    layer
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: locfit
+locfit 1.5-9.1 	 2013-03-22
+
+Attaching package: 'locfit'
+
+The following object(s) are masked from 'package:GenomicRanges':
+
+    left, right
+
+Loading required package: gtools
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: 'gdata'
+
+The following object(s) are masked from 'package:Biobase':
+
+    combine
+
+The following object(s) are masked from 'package:IRanges':
+
+    trim
+
+The following object(s) are masked from 'package:BiocGenerics':
+
+    combine
+
+The following object(s) are masked from 'package:stats':
+
+    nobs
+
+The following object(s) are masked from 'package:utils':
+
+    object.size
+
+Loading required package: caTools
+
+Attaching package: 'caTools'
+
+The following object(s) are masked from 'package:IRanges':
+
+    runmean
+
+Loading required package: grid
+Loading required package: KernSmooth
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+Loading required package: MASS
+
+Attaching package: 'gplots'
+
+The following object(s) are masked from 'package:rtracklayer':
+
+    space
+
+The following object(s) are masked from 'package:IRanges':
+
+    space
+
+The following object(s) are masked from 'package:stats':
+
+    lowess
+
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: Rsamtools
+
+Attaching package: 'ShortRead'
+
+The following object(s) are masked from 'package:plyr':
+
+    id
+
+Loading required package: graph
+
+Attaching package: 'graph'
+
+The following object(s) are masked from 'package:Biostrings':
+
+    complement
+
+The following object(s) are masked from 'package:plyr':
+
+    join
+
+Loading required package: RBGL
+Loading required package: xtable
+matrixStats v0.8.12 (2013-09-26) successfully loaded. See ?matrixStats for help.
+
+Attaching package: 'matrixStats'
+
+The following object(s) are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'data.table'
+
+The following object(s) are masked from 'package:ShortRead':
+
+    tables
+
+The following object(s) are masked from 'package:GenomicRanges':
+
+    last
+
+Loading required package: quadprog
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -78.67
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.67
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 2.7889
+Warning in sqrt(sum.squares/one.delta) : NaNs produced
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 119.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.09
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1881
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in sqrt(sum.squares/one.delta) : NaNs produced
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in sqrt(sum.squares/one.delta) : NaNs produced
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -90.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in sqrt(sum.squares/one.delta) : NaNs produced
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -90.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in sqrt(sum.squares/one.delta) : NaNs produced
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -132.66
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 2.665
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 7.1022
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 119.85
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 2.15
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 4.6225
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  Chernobyl! trL>n 20
+Warning in sqrt(sum.squares/one.delta) : NaNs produced
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -90.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -90.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -34.45
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 2.45
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 6.0025
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 132.91
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -34.69
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.69
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 2.8561
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  at  -36.02
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  radius  0.0004
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  all data on boundary of neighborhood. make span bigger
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -36.02
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 0.02
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  1
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  at  -31.98
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  radius  0.0004
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  all data on boundary of neighborhood. make span bigger
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 0.0004
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  zero-width neighborhood. make span bigger
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  zero-width neighborhood. make span bigger
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  zero-width neighborhood. make span bigger
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  zero-width neighborhood. make span bigger
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  zero-width neighborhood. make span bigger
+Error in predLoess(object$y, object$x, newx, object$s, object$weights,  : 
+  NA/NaN/Inf in foreign function call (arg 5)
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at 119.85
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 2.15
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 4.6225
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  span too small.   fewer data values than degrees of freedom.
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  pseudoinverse used at -90.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  neighborhood radius 1.085
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  reciprocal condition number  0
+Warning in simpleLoess(y, x, w, span, degree, parametric, drop.square, normalize,  :
+  There are other near singularities as well. 1.1772
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+output file: report-atlas.md
+
+Copying files to ....
+
+
+processing file: script.md
+output file: script.txt
+
+Copying files to libraries/frameworks/io2012...
+Copying files to libraries/highlighters/highlight.js...

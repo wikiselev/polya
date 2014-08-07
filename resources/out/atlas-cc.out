@@ -1,0 +1,132 @@
+[1] TRUE
+  |                                                                         |                                                                 |   0%  |                                                                         |...                                                              |   4%  |                                                                         |.....                                                            |   8%  |                                                                         |........                                                         |  12%  |                                                                         |..........                                                       |  16%  |                                                                         |.............                                                    |  20%  |                                                                         |................                                                 |  24%  |                                                                         |..................                                               |  28%  |                                                                         |.....................                                            |  32%  |                                                                         |.......................                                          |  36%  |                                                                         |..........................                                       |  40%  |                                                                         |.............................                                    |  44%  |                                                                         |...............................                                  |  48%  |                                                                         |..................................                               |  52%  |                                                                         |....................................                             |  56%  |                                                                         |.......................................                          |  60%  |                                                                         |..........................................                       |  64%  |                                                                         |............................................                     |  68%  |                                                                         |...............................................                  |  72%  |                                                                         |.................................................                |  76%  |                                                                         |....................................................             |  80%  |                                                                         |.......................................................          |  84%  |                                                                         |.........................................................        |  88%  |                                                                         |............................................................     |  92%  |                                                                         |..............................................................   |  96%  |                                                                         |.................................................................| 100%
+[1] "report-atlas.R"
+  |                                                                         |                                                                 |   0%  |                                                                         |...                                                              |   4%
+  ordinary text without R code
+
+  |                                                                         |.....                                                            |   8%
+label: global_setup (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ cache  : logi FALSE
+ $ warning: logi FALSE
+ $ purl   : logi FALSE
+
+  |                                                                         |........                                                         |  12%
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  16%
+label: header (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ message: logi FALSE
+ $ warning: logi FALSE
+ $ results: chr "hide"
+
+  |                                                                         |.............                                                    |  20%
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  24%
+label: unnamed-chunk-1 (with options) 
+List of 1
+ $ echo: language 2:4
+
+  |                                                                         |..................                                               |  28%
+  ordinary text without R code
+
+  |                                                                         |.....................                                            |  32%
+label: unnamed-chunk-2 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.......................                                          |  36%
+  ordinary text without R code
+
+  |                                                                         |..........................                                       |  40%
+label: unnamed-chunk-3 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.............................                                    |  44%
+  ordinary text without R code
+
+  |                                                                         |...............................                                  |  48%
+label: unnamed-chunk-4 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |..................................                               |  52%
+  ordinary text without R code
+
+  |                                                                         |....................................                             |  56%
+label: unnamed-chunk-5 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.......................................                          |  60%
+  ordinary text without R code
+
+  |                                                                         |..........................................                       |  64%
+label: unnamed-chunk-6 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |............................................                     |  68%
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  72%
+label: unnamed-chunk-7 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.................................................                |  76%
+  ordinary text without R code
+
+  |                                                                         |....................................................             |  80%
+label: unnamed-chunk-8 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.......................................................          |  84%
+  ordinary text without R code
+
+  |                                                                         |.........................................................        |  88%
+label: unnamed-chunk-9 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |............................................................     |  92%
+  ordinary text without R code
+
+  |                                                                         |..............................................................   |  96%
+label: unnamed-chunk-10 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+[1] "report-atlas.md"
+[1] TRUE
+[1] TRUE TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] FALSE
+[1] TRUE
+[1] TRUE TRUE TRUE
+  |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+[1] "script.txt"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE

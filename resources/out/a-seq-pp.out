@@ -1,0 +1,650 @@
+[1] TRUE
+  |                                                                         |                                                                 |   0%  |                                                                         |.                                                                |   1%  |                                                                         |.                                                                |   2%  |                                                                         |..                                                               |   2%  |                                                                         |..                                                               |   3%  |                                                                         |...                                                              |   4%  |                                                                         |...                                                              |   5%  |                                                                         |....                                                             |   5%  |                                                                         |....                                                             |   6%  |                                                                         |.....                                                            |   7%  |                                                                         |.....                                                            |   8%  |                                                                         |......                                                           |   9%  |                                                                         |.......                                                          |  10%  |                                                                         |.......                                                          |  11%  |                                                                         |........                                                         |  12%  |                                                                         |.........                                                        |  13%  |                                                                         |.........                                                        |  14%  |                                                                         |..........                                                       |  15%  |                                                                         |..........                                                       |  16%  |                                                                         |...........                                                      |  16%  |                                                                         |...........                                                      |  17%  |                                                                         |............                                                     |  18%  |                                                                         |............                                                     |  19%  |                                                                         |.............                                                    |  19%  |                                                                         |.............                                                    |  20%  |                                                                         |..............                                                   |  21%  |                                                                         |..............                                                   |  22%  |                                                                         |...............                                                  |  22%  |                                                                         |...............                                                  |  23%  |                                                                         |................                                                 |  24%  |                                                                         |................                                                 |  25%  |                                                                         |.................                                                |  26%  |                                                                         |..................                                               |  27%  |                                                                         |..................                                               |  28%  |                                                                         |...................                                              |  29%  |                                                                         |....................                                             |  30%  |                                                                         |....................                                             |  31%  |                                                                         |.....................                                            |  32%  |                                                                         |.....................                                            |  33%  |                                                                         |......................                                           |  33%  |                                                                         |......................                                           |  34%  |                                                                         |.......................                                          |  35%  |                                                                         |.......................                                          |  36%  |                                                                         |........................                                         |  36%  |                                                                         |........................                                         |  37%  |                                                                         |.........................                                        |  38%  |                                                                         |.........................                                        |  39%  |                                                                         |..........................                                       |  40%  |                                                                         |...........................                                      |  41%  |                                                                         |...........................                                      |  42%  |                                                                         |............................                                     |  43%  |                                                                         |.............................                                    |  44%  |                                                                         |.............................                                    |  45%  |                                                                         |..............................                                   |  46%  |                                                                         |..............................                                   |  47%  |                                                                         |...............................                                  |  47%  |                                                                         |...............................                                  |  48%  |                                                                         |................................                                 |  49%  |                                                                         |................................                                 |  50%  |                                                                         |.................................                                |  50%  |                                                                         |.................................                                |  51%  |                                                                         |..................................                               |  52%  |                                                                         |..................................                               |  53%  |                                                                         |...................................                              |  53%  |                                                                         |...................................                              |  54%  |                                                                         |....................................                             |  55%  |                                                                         |....................................                             |  56%  |                                                                         |.....................................                            |  57%  |                                                                         |......................................                           |  58%  |                                                                         |......................................                           |  59%  |                                                                         |.......................................                          |  60%  |                                                                         |........................................                         |  61%  |                                                                         |........................................                         |  62%  |                                                                         |.........................................                        |  63%  |                                                                         |.........................................                        |  64%  |                                                                         |..........................................                       |  64%  |                                                                         |..........................................                       |  65%  |                                                                         |...........................................                      |  66%  |                                                                         |...........................................                      |  67%  |                                                                         |............................................                     |  67%  |                                                                         |............................................                     |  68%  |                                                                         |.............................................                    |  69%  |                                                                         |.............................................                    |  70%  |                                                                         |..............................................                   |  71%  |                                                                         |...............................................                  |  72%  |                                                                         |...............................................                  |  73%  |                                                                         |................................................                 |  74%  |                                                                         |.................................................                |  75%  |                                                                         |.................................................                |  76%  |                                                                         |..................................................               |  77%  |                                                                         |..................................................               |  78%  |                                                                         |...................................................              |  78%  |                                                                         |...................................................              |  79%  |                                                                         |....................................................             |  80%  |                                                                         |....................................................             |  81%  |                                                                         |.....................................................            |  81%  |                                                                         |.....................................................            |  82%  |                                                                         |......................................................           |  83%  |                                                                         |......................................................           |  84%  |                                                                         |.......................................................          |  84%  |                                                                         |.......................................................          |  85%  |                                                                         |........................................................         |  86%  |                                                                         |........................................................         |  87%  |                                                                         |.........................................................        |  88%  |                                                                         |..........................................................       |  89%  |                                                                         |..........................................................       |  90%  |                                                                         |...........................................................      |  91%  |                                                                         |............................................................     |  92%  |                                                                         |............................................................     |  93%  |                                                                         |.............................................................    |  94%  |                                                                         |.............................................................    |  95%  |                                                                         |..............................................................   |  95%  |                                                                         |..............................................................   |  96%  |                                                                         |...............................................................  |  97%  |                                                                         |...............................................................  |  98%  |                                                                         |................................................................ |  98%  |                                                                         |................................................................ |  99%  |                                                                         |.................................................................| 100%
+[1] "report-a-seq.R"
+  |                                                                         |                                                                 |   0%  |                                                                         |.                                                                |   1%
+  ordinary text without R code
+
+  |                                                                         |.                                                                |   2%
+label: global_setup (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ cache  : logi FALSE
+ $ warning: logi FALSE
+ $ purl   : logi FALSE
+
+  |                                                                         |..                                                               |   2%
+  ordinary text without R code
+
+  |                                                                         |..                                                               |   3%
+label: header (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ message: logi FALSE
+ $ warning: logi FALSE
+ $ results: chr "hide"
+
+  |                                                                         |...                                                              |   4%
+  ordinary text without R code
+
+  |                                                                         |...                                                              |   5%
+label: unnamed-chunk-1 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |....                                                             |   5%
+  ordinary text without R code
+
+  |                                                                         |....                                                             |   6%
+label: unnamed-chunk-2 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+
+  |                                                                         |.....                                                            |   7%
+  ordinary text without R code
+
+  |                                                                         |.....                                                            |   8%
+label: plot_usage (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |......                                                           |   9%
+  ordinary text without R code
+
+
+label: unnamed-chunk-3 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.......                                                          |  10%
+  ordinary text without R code
+
+  |                                                                         |.......                                                          |  11%
+label: unnamed-chunk-4 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |........                                                         |  12%
+  ordinary text without R code
+
+
+label: unnamed-chunk-5 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.........                                                        |  13%
+  ordinary text without R code
+
+  |                                                                         |.........                                                        |  14%
+label: unnamed-chunk-6 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |..........                                                       |  15%
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  16%
+label: unnamed-chunk-7 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...........                                                      |  16%
+  ordinary text without R code
+
+  |                                                                         |...........                                                      |  17%
+label: unnamed-chunk-8 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |............                                                     |  18%
+  ordinary text without R code
+
+  |                                                                         |............                                                     |  19%
+label: unnamed-chunk-9 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.............                                                    |  19%
+  ordinary text without R code
+
+  |                                                                         |.............                                                    |  20%
+label: unnamed-chunk-10 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |..............                                                   |  21%
+  ordinary text without R code
+
+  |                                                                         |..............                                                   |  22%
+label: unnamed-chunk-11 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...............                                                  |  22%
+  ordinary text without R code
+
+  |                                                                         |...............                                                  |  23%
+label: unnamed-chunk-12 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |................                                                 |  24%
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  25%
+label: unnamed-chunk-13 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.................                                                |  26%
+  ordinary text without R code
+
+
+label: unnamed-chunk-14 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |..................                                               |  27%
+  ordinary text without R code
+
+  |                                                                         |..................                                               |  28%
+label: unnamed-chunk-15 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...................                                              |  29%
+  ordinary text without R code
+
+
+label: unnamed-chunk-16 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |....................                                             |  30%
+  ordinary text without R code
+
+  |                                                                         |....................                                             |  31%
+label: unnamed-chunk-17 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.....................                                            |  32%
+  ordinary text without R code
+
+  |                                                                         |.....................                                            |  33%
+label: unnamed-chunk-18 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  34%
+label: unnamed-chunk-19 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.......................                                          |  35%
+  ordinary text without R code
+
+  |                                                                         |.......................                                          |  36%
+label: unnamed-chunk-20 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |........................                                         |  36%
+  ordinary text without R code
+
+  |                                                                         |........................                                         |  37%
+label: unnamed-chunk-21 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.........................                                        |  38%
+  ordinary text without R code
+
+  |                                                                         |.........................                                        |  39%
+label: unnamed-chunk-22 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |..........................                                       |  40%
+  ordinary text without R code
+
+
+label: unnamed-chunk-23 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...........................                                      |  41%
+  ordinary text without R code
+
+  |                                                                         |...........................                                      |  42%
+label: unnamed-chunk-24 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |............................                                     |  43%
+  ordinary text without R code
+
+
+label: unnamed-chunk-25 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.............................                                    |  44%
+  ordinary text without R code
+
+  |                                                                         |.............................                                    |  45%
+label: unnamed-chunk-26 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |..............................                                   |  46%
+  ordinary text without R code
+
+  |                                                                         |..............................                                   |  47%
+label: unnamed-chunk-27 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...............................                                  |  47%
+  ordinary text without R code
+
+  |                                                                         |...............................                                  |  48%
+label: unnamed-chunk-28 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |................................                                 |  49%
+  ordinary text without R code
+
+  |                                                                         |................................                                 |  50%
+label: unnamed-chunk-29 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.................................                                |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................                                |  51%
+label: unnamed-chunk-30 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |..................................                               |  52%
+  ordinary text without R code
+
+  |                                                                         |..................................                               |  53%
+label: unnamed-chunk-31 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...................................                              |  53%
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  54%
+label: unnamed-chunk-32 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |....................................                             |  55%
+  ordinary text without R code
+
+  |                                                                         |....................................                             |  56%
+label: unnamed-chunk-33 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.....................................                            |  57%
+  ordinary text without R code
+
+
+label: unnamed-chunk-34 (with options) 
+List of 5
+ $ ref.label: chr "plot_usage"
+ $ echo     : logi FALSE
+ $ warning  : logi FALSE
+ $ error    : logi FALSE
+ $ message  : logi FALSE
+
+  |                                                                         |......................................                           |  58%
+  ordinary text without R code
+
+  |                                                                         |......................................                           |  59%
+label: unnamed-chunk-35 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.......................................                          |  60%
+  ordinary text without R code
+
+
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |........................................                         |  61%
+  ordinary text without R code
+
+  |                                                                         |........................................                         |  62%
+label: unnamed-chunk-36 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.........................................                        |  63%
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  64%
+label: unnamed-chunk-37 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |..........................................                       |  64%
+  ordinary text without R code
+
+  |                                                                         |..........................................                       |  65%
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |...........................................                      |  66%
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  67%
+label: unnamed-chunk-38 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |............................................                     |  67%
+  ordinary text without R code
+
+  |                                                                         |............................................                     |  68%
+label: unnamed-chunk-39 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.............................................                    |  69%
+  ordinary text without R code
+
+  |                                                                         |.............................................                    |  70%
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |..............................................                   |  71%
+  ordinary text without R code
+
+
+label: unnamed-chunk-40 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |...............................................                  |  72%
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  73%
+label: unnamed-chunk-41 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |................................................                 |  74%
+  ordinary text without R code
+
+
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.................................................                |  75%
+  ordinary text without R code
+
+  |                                                                         |.................................................                |  76%
+label: unnamed-chunk-42 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |..................................................               |  77%
+  ordinary text without R code
+
+  |                                                                         |..................................................               |  78%
+label: unnamed-chunk-43 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...................................................              |  78%
+  ordinary text without R code
+
+  |                                                                         |...................................................              |  79%
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |....................................................             |  80%
+  ordinary text without R code
+
+  |                                                                         |....................................................             |  81%
+label: unnamed-chunk-44 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.....................................................            |  81%
+  ordinary text without R code
+
+  |                                                                         |.....................................................            |  82%
+label: unnamed-chunk-45 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |......................................................           |  83%
+  ordinary text without R code
+
+  |                                                                         |......................................................           |  84%
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.......................................................          |  84%
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  85%
+label: unnamed-chunk-46 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |........................................................         |  86%
+  ordinary text without R code
+
+  |                                                                         |........................................................         |  87%
+label: unnamed-chunk-47 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |.........................................................        |  88%
+  ordinary text without R code
+
+
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |..........................................................       |  89%
+  ordinary text without R code
+
+  |                                                                         |..........................................................       |  90%
+label: unnamed-chunk-48 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |...........................................................      |  91%
+  ordinary text without R code
+
+
+label: unnamed-chunk-49 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |............................................................     |  92%
+  ordinary text without R code
+
+  |                                                                         |............................................................     |  93%
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |.............................................................    |  94%
+  ordinary text without R code
+
+  |                                                                         |.............................................................    |  95%
+label: unnamed-chunk-50 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |..............................................................   |  95%
+  ordinary text without R code
+
+  |                                                                         |..............................................................   |  96%
+label: unnamed-chunk-51 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |...............................................................  |  97%
+  ordinary text without R code
+
+  |                                                                         |...............................................................  |  98%
+label: prot_heatmap (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: logi FALSE
+
+  |                                                                         |................................................................ |  98%
+  ordinary text without R code
+
+  |                                                                         |................................................................ |  99%
+label: unnamed-chunk-52 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ error  : logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+[1] "report-a-seq.md"
+[1] TRUE
+[1] TRUE TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] FALSE
+[1] TRUE
+ [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
+[16] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
+  |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+[1] "script.txt"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE
